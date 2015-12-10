@@ -1,6 +1,48 @@
-h1 {
-    color: #00FF00;
+/*GLOBAL STYLES*/
+
+html, body {
+    height:100%;
+    width:100%;
 }
+
+body {
+    margin:0px;
+    padding:0px;
+    background-color:#000080;
+    font-family:'Source Sans Pro', Trebuchet MS, sans-serif;
+    font-size:16px;
+    /*color:#FFFFFF !important;*/
+    font-weight:600;
+    
+}
+body {
+    color:#000000;
+}
+
+h1, h2, h3, h4 {
+    margin:0px;
+    padding:0px;
+    color:#ccff66; /*GRANNY SMITH APPLE GREEN*/
+}
+
 p {
-    color: #FF0000;
+    line-height:533%;
+    margin:15px 0px; 
 }
+
+
+
+
+
+
+
+
+
+
+/*HEADER STYLES*/
+
+
+/*BANNER STYLES*/
+
+
+/*FOOTER STYLES*/

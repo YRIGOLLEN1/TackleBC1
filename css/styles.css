@@ -11,7 +11,7 @@ body {
     background-color:#000080;
     font-family:'Source Sans Pro', Trebuchet MS, sans-serif;
     font-size:16px;
-    /*color:#FFFFFF !important;*/
+    /*color:#FFFFFF !important*/
     font-weight:600;
     
 }
@@ -30,6 +30,80 @@ p {
     margin:15px 0px; 
 }
 
+b, strong {
+    color:#ccff66;
+}
+
+a {
+    color:#ccff66;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#FF7900; /*THIS COLOR IS ORANGE*/
+}
+
+/*MAIN BODY STYLES*/
+
+.mainWidth {
+    overflow:hidden;
+    margin:0px auto;
+    width:1200px;
+}
+
+
+/*============HEADER STYLES=============*/
+
+header {
+    background-color :#999966;
+
+}
+
+#header {
+    position:relative;
+    padding:15px 0px;
+}
+
+#logo a {
+    color:#FF7900;
+}
+
+#logo a:hover {
+    color:#8DC63F;
+}
+
+
+
+/*--------MENU STYLES---------*/
+
+#menu {
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+#menu ul {
+    display:inline-block;
+}
+
+#menu li {
+    display:inline;
+    text-align:center;
+}
+
+#menu li:after {
+    content:|;
+    padding:0px 15px;
+    font-weight:600;
+    color:#ccff66;
+}
+
+.currentPage {
+    color:#FF7900;
+}
+
+.currentPage:hover {
+    color:#8DC63F;
+}
 
 
 
@@ -37,12 +111,41 @@ p {
 
 
 
-
-
-/*HEADER STYLES*/
 
 
 /*BANNER STYLES*/
+
+#bannerHome {
+    overflow:hidden;
+    padding:150px 0px;
+    border-top:3px solid #8DC63F;
+    background-size:cover;
+    background:url(../images/group-web-optimized.jpg) no-repeat center center #e60073;
+    
+}
+
+.bannerText {
+    font-size:6em;
+    color:#FFFFFF;
+    text-align:center;
+    text-shadow:10px 10px 10px#000000;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*FOOTER STYLES*/

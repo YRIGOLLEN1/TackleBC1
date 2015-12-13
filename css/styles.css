@@ -6,17 +6,17 @@ html, body {
 }
 
 body {
-    margin:0px;
+    margin:0px; 
     padding:0px;
-    background-color:#000080;
+    background-color:#000099;
     font-family:'Source Sans Pro', Trebuchet MS, sans-serif;
-    font-size:22px;
+    font-size:16px;
     /*color:#FFFFFF !important*/
     font-weight:600;
     
 }
 body {
-    color:#FeFF80;
+    color:#b2b300;
 }
 
 h1, h2, h3, h4 {
@@ -55,7 +55,7 @@ a:hover {
 /*============HEADER STYLES=============*/
 
 header {
-    background-color :#999966;
+    background-color :#000080;
 
 }
 
@@ -89,6 +89,9 @@ header {
     display:inline;
     text-align:center;
     padding:0px 15px;
+}
+
+#menu li {
     content:|;
     font-weight:600;
     color:#ccff66;
@@ -117,7 +120,7 @@ header {
     padding:115px 0px;
     border-top:3px solid #8DC63F;
     background-size:cover;
-    background:url(../images/group.jpg) no-repeat center center #e60073;
+    background:url(../images/group.jpg) no-repeat center center #b30000;
     
 }
 

@@ -92,7 +92,7 @@ header {
 }
 
 #menu li {
-    content:|;
+    content:"|";
     font-weight:600;
     color:#ccff66;
 }
@@ -131,13 +131,103 @@ header {
     text-shadow:10px 10px 10px#000000;
     
 }
+/*BANNER STYLES */
+
+#bannerHome {
+    overflow:scroll;
+    padding:150px 0px;
+    border-top:3px solid #8DC63F;
+    background-size:cover;
+    background:url(../images/banner-home.jpg) no-repeat bottom center #FF7900;
+}
+
+.bannerText {
+    font-size:6em;
+    color:#FFFFFF;
+    text-align:center;
+    text-shadow:7px 7px 10px #000000;
+}
 
 
+/* THE COLUMNS STYLES */
+
+.columnA, .columnB, .columnC {
+    width:384px;
+}
+
+.columnA h2, .columnB h2, .columnC h2 {
+    font-size:3.8em;
+    font-weight:700;
+    text-align:center;
+    line-height:1.5em;
+}
+
+.box span {
+    background-color:#8DC63F;
+    color:#FFFFFF;
+    display:block;
+    font-size:2.5em;
+    font-weight:900;
+    margin-bottom:16px;
+    padding:16px;
+    text-align:center;
+    text-transform:uppercase;
+} 
+
+.columnA p, .columnB p, .columnC p {
+    text-align:justify;
+}
+
+/*.columnA img, .columnB img, .columnC img {*/
+/*    width:384px;*/
+/*}*/
+
+.columnA, .columnB {
+    /*display:inline-block;*/
+    float:left;
+    margin-right:24px;
+}
+
+.columnC {
+    float:left;
+}
 
 
+/* ABOUT ME SECTION STYLES */
 
+.alignLeft {
+    float:left;
+    margin-right:24px;
+}
 
+.alignRight {
+    
+}
 
+#aboutMe {
+    margin:25px 0px;
+}
+
+/* EXTRA STYLES */
+
+a.button {
+    padding:15px 20px;
+    background-color:#8DC63F;
+    letter-spacing:2px; /* THIS IS OPTIONAL */
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:1.2em;
+    color:#FFFFFF;
+    border-radius:5px;
+    margin:10px 0px;
+    display:inline-block;
+    transition:background 0.6s linear 0s, color 0.6s linear 0s;
+}
+
+a.button:hover {
+    background-color:#FF7900;
+    color:#FFFFFF;
+}
 
 
 
@@ -149,3 +239,23 @@ header {
 
 
 /*FOOTER STYLES*/
+
+.fa {
+    background-color:#8DC63F;
+    border:4px solid #FFFFFF;
+    border-radius:100%;
+    font-size:2em !important;
+    margin:15px;
+    padding:10px;
+    width:28px;
+    height:28px;
+    color:#FFFFFF;
+}
+
+
+
+
+
+
+
+

@@ -6,41 +6,43 @@ html, body {
 }
 
 body {
-    margin:0px; 
+    margin:0px;
     padding:0px;
-    background-color:#000099;
+    background-color:#0048b3;
     font-family:'Source Sans Pro', Trebuchet MS, sans-serif;
-    font-size:16px;
-    /*color:#FFFFFF !important*/
-    font-weight:600;
-    
+    font-size:20px;
+    /*color:#FFFFFF !important;*/
+    font-weight:400;
 }
+
 body {
-    color:#b2b300;
+    color:#ccff66;
 }
 
 h1, h2, h3, h4 {
     margin:0px;
     padding:0px;
-    color:#ccff66; /*GRANNY SMITH APPLE GREEN*/
+    color:#ccff66; /* GRANNY SMITH APPLE GREEN */
+    font-weight:600;
 }
 
+
 p {
-    line-height:533%;
-    margin:15px 0px; 
+    line-height:150%;
+    margin:15px 0px;
 }
 
 b, strong {
-    color:#ccff66;
+    color:#8DC63F;
 }
 
 a {
-    color:#ccff66;
+    color:#8DC63F;
     text-decoration:none;
 }
 
 a:hover {
-    color:#FF7900; /*THIS COLOR IS ORANGE*/
+    color:#FF7900; /* THIS COLOR IS ORANGE */
 }
 
 /*MAIN BODY STYLES*/
@@ -51,12 +53,10 @@ a:hover {
     width:1200px;
 }
 
-
-/*============HEADER STYLES=============*/
+/* ========== HEADER STYLES ============= */
 
 header {
-    background-color :#000080;
-
+    background-color:#000080;
 }
 
 #header {
@@ -65,22 +65,21 @@ header {
 }
 
 #logo a {
-    color:#FFFFCC;
+    color:#ccff66; /* leave yourself notes */
 }
 
 #logo a:hover {
-    color:#8DC63F;
+    color:#b30000;
 }
 
-
-
-/*--------MENU STYLES---------*/
+/* ------- MENU STYLES -------- */
 
 #menu {
     position:absolute;
     top:20px;
     right:20px;
 }
+
 #menu ul {
     display:inline-block;
 }
@@ -88,11 +87,11 @@ header {
 #menu li {
     display:inline;
     text-align:center;
-    padding:0px 15px;
 }
 
-#menu li {
+#menu li:after {
     content:"|";
+    padding:0px 15px;
     font-weight:600;
     color:#ccff66;
 }
@@ -102,35 +101,10 @@ header {
 }
 
 .currentPage:hover {
-    color:#8DC63F;
+    color:#b30000;
 }
 
 
-
-
-
-
-
-
-
-/*BANNER STYLES*/
-
-#bannerHome {
-    overflow:hidden;
-    padding:115px 0px;
-    border-top:3px solid #8DC63F;
-    background-size:cover;
-    background:url(../images/group.jpg) no-repeat center center #b30000;
-    
-}
-
-.bannerText {
-    font-size:6em;
-    color:#FFFFFF;
-    text-align:center;
-    text-shadow:10px 10px 10px#000000;
-    
-}
 /*BANNER STYLES */
 
 #bannerHome {
@@ -138,7 +112,22 @@ header {
     padding:150px 0px;
     border-top:3px solid #8DC63F;
     background-size:cover;
-    background:url(../images/banner-home.jpg) no-repeat bottom center #FF7900;
+    background:url(../images/group.jpg) no-repeat bottom center #b30000;
+}
+#banner_about {
+    overflow:scroll;
+    padding:0px 0px;
+    border-top:3px solid #8DC63F;
+    background-size:cover;
+    background:url() no-repeat bottom center #FF7900;
+}
+
+#banner_contact {
+    overflow:scroll;
+    padding:0px 0px;
+    border-top:3px solid #8DC63F;
+    background-size:cover;
+    background:url() no-repeat bottom center #FF7900;
 }
 
 .bannerText {
@@ -163,8 +152,8 @@ header {
 }
 
 .box span {
-    background-color:#8DC63F;
-    color:#FFFFFF;
+    background-color:#000080;
+    color:#ffffff;
     display:block;
     font-size:2.5em;
     font-weight:900;
@@ -203,6 +192,9 @@ header {
 .floatRight {
     float:right;
     margin-left:24px;
+}
+
+.alignRight {
     
 }
 
@@ -214,12 +206,12 @@ header {
 
 a.button {
     padding:15px 20px;
-    background-color:#8DC63F;
+    background-color:#33ccff;
     letter-spacing:2px; /* THIS IS OPTIONAL */
     text-transform:uppercase;
     font-weight:700;
     font-size:1.2em;
-    color:#FFFFFF;
+    color:#b30000;
     border-radius:5px;
     margin:10px 0px;
     display:inline-block;
@@ -231,22 +223,19 @@ a.button:hover {
     color:#FFFFFF;
 }
 
-
-#wufoo-z1q5k8sc0xa0xuc {
+#wufoo-q157so211krd60q {
     border:4px solid #FF7900;
     border-radius:8px;
     width:80%;
-    background-color:#e7f3d6;
     margin:30px auto;
+    padding:30px;
+    background-color:#e7f3d6;
 }
-
 
 .vidContainer {
     width:90%;
     margin:0px auto;
-    
 }
-
 
 #videoHolder {
     width:100%;
@@ -261,31 +250,38 @@ a.button:hover {
     position:absolute;
     top:0px;
     left:0px;
-    width:100px;
+    width:100%;
     height:100%;
 }
 
-
-
-
-
-
-
-
-
 /*FOOTER STYLES*/
+
+footer {
+    background-color:#e7f3d6;
+    border-top:3px dotted #8DC63F;
+    padding:60px 0px;
+    overflow:hidden;
+    text-align:center;
+    margin-top:30px;
+}
 
 .fa {
     background-color:#8DC63F;
     border:4px solid #FFFFFF;
     border-radius:100%;
     font-size:2em !important;
-    margin:20px;
+    margin:15px;
     padding:10px;
     width:28px;
     height:28px;
     color:#FFFFFF;
+    transition:background 0.6s linear 0s, color 0.6s linear 0s;
 }
+
+.fa:hover {
+    background-color:#ff7900;
+}
+
 
 
 

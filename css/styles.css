@@ -200,7 +200,9 @@ header {
     margin-right:24px;
 }
 
-.alignRight {
+.floatRight {
+    float:right;
+    margin-left:24px;
     
 }
 
@@ -230,6 +232,39 @@ a.button:hover {
 }
 
 
+#wufoo-z1q5k8sc0xa0xuc {
+    border:4px solid #FF7900;
+    border-radius:8px;
+    width:80%;
+    background-color:#e7f3d6;
+    margin:30px auto;
+}
+
+
+.vidContainer {
+    width:90%;
+    margin:0px auto;
+    
+}
+
+
+#videoHolder {
+    width:100%;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0px;
+    overflow:hidden;
+}
+
+#videoHolder iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100px;
+    height:100%;
+}
+
 
 
 
@@ -245,7 +280,7 @@ a.button:hover {
     border:4px solid #FFFFFF;
     border-radius:100%;
     font-size:2em !important;
-    margin:15px;
+    margin:20px;
     padding:10px;
     width:28px;
     height:28px;

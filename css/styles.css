@@ -16,7 +16,7 @@ body {
 }
 
 body {
-    color:#ccff66;
+    color:#ffff33;
 }
 
 h1, h2, h3, h4 {
@@ -145,7 +145,7 @@ header {
 }
 
 .columnA h2, .columnB h2, .columnC h2 {
-    font-size:3.8em;
+    font-size:3.3em;
     font-weight:700;
     text-align:center;
     line-height:1.5em;
@@ -257,7 +257,7 @@ a.button:hover {
 /*FOOTER STYLES*/
 
 footer {
-    background-color:#e7f3d6;
+    background-color:#B30000;
     border-top:3px dotted #8DC63F;
     padding:60px 0px;
     overflow:hidden;
